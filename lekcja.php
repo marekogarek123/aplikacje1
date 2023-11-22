@@ -1,7 +1,6 @@
 <?php
-    $myFile = fopen("nowypliczek.txt","w")
-        or die("unablke to open file !");
-    $txt="Johny Deep\n";
-    fwrite($myFile,$txt);
-    fclose($myFile);
+   echo "today is".date("y/m/d")."<br>";
+   echo "todaj is".date("d.m.y")."<br>";
+   echo "todaj is".date("d-m-y")."<br>";
+   echo "todaj is".date("l")."<br>";
 ?>

@@ -27,7 +27,7 @@
         ?>
     </div>
 
-    <div class="środkowy">
+    <div class="srodek">
         <h2>Sprawdź cenę</h2>
         <form action="index.php" method="POST">
         <select name="produkt">
